@@ -72,6 +72,7 @@ checksum = "24a6904aef64d73cf10ab17ebace7befb918b82164785cb89907993be7f83813"
 name = "blinded-server"
 version = "0.1.0"
 dependencies = [
+ "async-trait",
  "diesel",
  "diesel_migrations",
  "hex",
